@@ -2,7 +2,7 @@
 
 ## 1. Setup Your Development Environment
 
-### Install PHP3:
+### Install PHP:
 - Ensure you have the XAMP installed.
 - Verify installation by running `php -version` in your terminal. This should return the installed versions.
 
