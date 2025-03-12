@@ -3,7 +3,7 @@
 ## 1. Setup Your Development Environment
 
 ### Install PHP:
-- Ensure you have the XAMP installed.
+- Ensure you have the XAMPP installed.
 - Verify installation by running `php -version` in your terminal. This should return the installed versions.
 
 ### Choose an Integrated Development Environment (IDE):
