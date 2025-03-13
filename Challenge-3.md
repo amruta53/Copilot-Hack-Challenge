@@ -1,5 +1,4 @@
-# Challenge 3 – API , UI Development and CRUD Operations
-
+# Challenge 3 – API, UI Development and CRUD Operations
 ## 1. Setup Your Development Environment
 Use IntelliJ, or Visual Studio Code.
 1.  convert php3 to golang
