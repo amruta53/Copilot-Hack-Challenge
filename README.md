@@ -1,7 +1,20 @@
+# Copilot-Hack-Challenges
 
-# Copilot-Hack-Challenge
+<a href="#">
+    <img src="Images/copilot-adventures.jpg" style="width: 830px;" />
+</a>
 
-This repository contains multiple challenges designed to demonstrate the capabilities of GitHub Copilot in various programming tasks. The challenges cover different aspects of software development, including API development, CRUD operations, UI development, and testing.
+The Copilot Hack Challenges are designed to push the boundaries of what can be achieved with GitHub Copilot. Enhance your problem-solving skills, learn new technologies, and collaborate with others to create innovative solutions.
+
+## Challenges Overview
+
+### Enter the Adventure Arena
+Clone the repo and run locally:
+
+```bash
+git clone https://github.com/amruta53/Copilot-Hack-Challenge
+```
+
 
 ## Challenge 1: The Clockwork Town of Tempora
 
@@ -34,42 +47,85 @@ Create a system that checks all the clocks in the town and synchronizes them wit
 - Focus on clear and concise code.
 - Creating a visual representation for the clocks is optional but encouraged if you have time.
 
-## Challenge 2: API, UI Development and CRUD Operations
+# Challenge 2 – API Development and CRUD Operations
 
-### Objective
+## 1. Setup Your Development Environment
 
-Convert a PHP application to Golang, document the code, and perform CRUD operations using a REST Controller. Use a JSON file or a database to store data. Create a ReactJS UI to interact with the backend and perform CRUD operations.
+### Install JDK:
+- Ensure you have the Java Development Kit (JDK) installed. You'll need JDK 8 or higher.
+- Verify installation by running `java -version` and `javac -version` in your terminal. This should return the installed versions.
 
-### Specifications
+### Choose an Integrated Development Environment (IDE):
+- Use IntelliJ IDEA, or Visual Studio Code (with Java support and Copilot enabled).
 
-1. **Model Class:**
-    - Use the provided JSON data to create a model class.
-    - Example JSON data includes items like laptops, smartphones, and tablets.
+### Set Up Maven or Gradle:
+- Maven and Gradle are build automation tools that help manage project dependencies.
+- Install Maven or Gradle if they aren't already installed.
+- Set up your project as a Maven or Gradle project in your IDE. This will create the necessary project structure.
 
-2. **CRUD Operations:**
-    - Implement GET, PUT, POST, and DELETE operations using REST Controller annotations.
-    - Example endpoints:
-        - GET /api/items: Retrieve all items.
-        - GET /api/items/{id}: Retrieve an item by its ID.
-        - POST /api/items: Create a new item.
-        - PUT /api/items/{id}: Update an existing item.
-        - DELETE /api/items/{id}: Delete an item.
+## 2. Create a New Java Project
 
-3. **Exception Handling:**
-    - Add appropriate exception handling for the CRUD operations.
+## 3. Add Required Dependencies
 
-4. **UI Development:**
-    - Create a ReactJS UI to display data in a table format and perform CRUD operations.
+Dependencies are external libraries that your project needs to function. They are managed through `pom.xml` for Maven or `build.gradle` for Gradle.
 
-5. **Testing:**
-    - Write unit and integration tests for the Golang code.
-    - Include edge cases and null conditions.
+### Spring Boot:
+- Add Spring Boot, a framework for building RESTful APIs in Java.
+- For Maven, add the `spring-boot-starter-web` dependency to your `pom.xml`.
+- Spring Boot simplifies application development by providing pre-configured templates.
 
-### High-Level Tasks
+## 4. Create the Model Class for the Following JSON
 
-1. Convert PHP code to Golang.
-2. Write documentation for the Golang code.
-3. Implement CRUD operations and exception handling.
-4. Develop a ReactJS UI for the backend.
-5. Write and run test cases for the CRUD operations.
+```json
+[
+    {
+        "id": "1",
+        "name": "Laptop",
+        "description": "A high-performance laptop suitable for gaming and work.",
+        "price": 1200.00
+    },
+    {
+        "id": "2",
+        "name": "Smartphone",
+        "description": "A latest-generation smartphone with a large display and powerful camera.",
+        "price": 800.00
+    },
+    {
+        "id": "3",
+        "name": "Wireless Headphones",
+        "description": "Noise-cancelling wireless headphones with long battery life.",
+        "price": 200.00
+    },
+    {
+        "id": "4",
+        "name": "Smartwatch",
+        "description": "A smartwatch with fitness tracking and customizable watch faces.",
+        "price": 150.00
+    },
+    {
+        "id": "5",
+        "name": "Tablet",
+        "description": "A lightweight tablet with a sharp display, ideal for reading and browsing.",
+        "price": 300.00
+    }
+]
+```
+### 5. Read and Write to the JSON file 
+### 6. Perform CRUD operations using REST Controller 
+GET, PUT, POST, DELETE using the annotations 
+•	GET /api/items: Retrieve all items. 
+•	GET /api/items/{id}: Retrieve an item by its ID. 
+•	POST /api/items: Create a new item. 
+•	PUT /api/items/{id}: Update an existing item. 
+•	DELETE /api/items/{id}: Delete an item. 
+### 7. Add Exception handling
+### 8. You are free to use a database instead of a json file for crud operations.
+ 
+### 9. Improve UI
+1.	Display the data In the table format on UI 
+2.	Perform CRUD operations 
 
+### 10. Add Test Cases
+1.	Write the test cases for the GET, POST, PUT and DELETE operations 
+2.	Include edge cases and null conditions 
+3.	Run the test cases 
