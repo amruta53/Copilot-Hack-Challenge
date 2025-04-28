@@ -113,11 +113,11 @@ Dependencies are external libraries that your project needs to function. They ar
 ### 5. Read and Write to the JSON file 
 ### 6. Perform CRUD operations using REST Controller 
 GET, PUT, POST, DELETE using the annotations 
-•	GET /api/items: Retrieve all items. 
-•	GET /api/items/{id}: Retrieve an item by its ID. 
-•	POST /api/items: Create a new item. 
-•	PUT /api/items/{id}: Update an existing item. 
-•	DELETE /api/items/{id}: Delete an item. 
+1. GET /api/items: Retrieve all items. 
+2. GET /api/items/{id}: Retrieve an item by its ID. 
+3. POST /api/items: Create a new item. 
+4. PUT /api/items/{id}: Update an existing item. 
+5. DELETE /api/items/{id}: Delete an item. 
 ### 7. Add Exception handling
 ### 8. You are free to use a database instead of a json file for crud operations.
  
